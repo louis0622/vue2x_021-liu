@@ -3,15 +3,17 @@
       <!-- <a class="header_search">
         <i class="iconfont icon-sousuo"></i>
       </a> -->
+
       <slot name="left"> </slot>
       <a class="header_title">
         <span class="header_title_text ellipsis">{{title}}</span>
       </a>
       <slot name="right"> </slot>
+
       <!-- <a class="header_login">
         <span class="header_login_text">登录|注册</span>
       </a> -->
-    </header>
+  </header>
 </template>
 
 <script type="text/ecmascript-6">
